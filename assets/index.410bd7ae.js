@@ -310,4 +310,4 @@ Error generating stack: `+o.message+`
         font-size: 1rem;
     }
 
-`,c2={white:"white","gray-100":"#E1E1E6","gray-300":"#C4C4CC","gray-400":"#8D8D99","gray-500":"#7C7C8A","gray-600":"#323238","gray-700":"#29292E","gray-800":"#202024","gray-900":"#121214","green-300":"#00B37E","green-500":"#00875F","green-700":"#015F43","red-500":"#AB222E","red-700":"#7A1921","yellow-500":"#FBA94C"};function d2(){return ie($1,{theme:c2,children:[w(u2,{}),w(Ig,{children:w(Jw,{children:w(a2,{})})})]})}da.createRoot(document.getElementById("root")).render(w(be.StrictMode,{children:w(d2,{})}));
+`,c2={white:"white","gray-100":"#E1E1E6","gray-300":"#C4C4CC","gray-400":"#8D8D99","gray-500":"#7C7C8A","gray-600":"#323238","gray-700":"#29292E","gray-800":"#202024","gray-900":"#121214","green-300":"#00B37E","green-500":"#00875F","green-700":"#015F43","red-500":"#AB222E","red-700":"#7A1921","yellow-500":"#FBA94C"};function d2(){return ie($1,{theme:c2,children:[w(u2,{}),w(Jw,{children:w(a2,{})})]})}da.createRoot(document.getElementById("root")).render(w(be.StrictMode,{children:w(Ig,{children:w(d2,{})})}));
