@@ -7,6 +7,7 @@
     "dev": "vite",
     "build": "tsc && vite build",
     "preview": "vite preview",
+    "deploy-gh": "git subtree push --prefix dist origin gh-pages",
     "lint": "eslint src --ext .ts,.tsx"
   },
   "dependencies": {
