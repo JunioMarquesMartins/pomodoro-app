@@ -12,6 +12,8 @@ export const HomeContainer = styled.main`
     flex-direction: column;
     align-items: center;
     gap: 3.5rem;
+    max-width: 40rem;
+    width: 100%;
   }
 `
 

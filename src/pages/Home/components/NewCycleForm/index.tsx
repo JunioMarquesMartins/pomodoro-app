@@ -8,6 +8,8 @@ export function NewCycleForm() {
   const { activeCycle } = useContext(CyclesContext)
   const { register } = useFormContext()
 
+  const listNumbers = ['05', '10', '20', '30', '40', '50', '60']
+
   return (
     <FormContainer>
       <label htmlFor="task">I will work on</label>
@@ -30,15 +32,22 @@ export function NewCycleForm() {
       <MinutesAmountInput
         type="number"
         id="minutesAmount"
+        list="time-suggestions"
         placeholder="00"
         step={5}
-        min={1}
+        min={5}
         max={60}
         disabled={!!activeCycle}
         {...register('minutesAmount', { valueAsNumber: true })}
       />
 
       <span>minutes.</span>
+
+      <datalist id="time-suggestions">
+        {listNumbers.map((number) => {
+          return <option key={number} value={number} />
+        })}
+      </datalist>
     </FormContainer>
   )
 }

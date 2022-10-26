@@ -1,5 +1,6 @@
 # Pomodoro App - React + typescript
 
+[See Pomodoro app in gh-pages>>>](https://juniomarquesmartins.github.io/pomodoro-app/)
 
 In the project directory, you can run:
 
